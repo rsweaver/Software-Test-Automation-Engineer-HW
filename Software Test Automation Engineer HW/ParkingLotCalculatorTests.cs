@@ -29,7 +29,7 @@ namespace Software_Test_Automation_Engineer_HW
         public void TestSetup()
         {
             //Replace path with chromedriver.exe path
-            Driver = new WebDriver(@"C:\Users\Rebecca\Documents\Visual Studio 2015\Projects\Software Test Automation Engineer HW");
+            Driver = new WebDriver();
             Driver.Navigate().GoToUrl(url);
             Thread.Sleep(2000);
 
